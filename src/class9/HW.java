@@ -10,7 +10,7 @@ public class HW {
         for(int i=0; i<7; i++){
             System.out.println("Please enter day "+num+" of the week");
             num++;
-            sent [i]=scanner.next()
+            sent [i]=scanner.next();
         }
 
         for(String days:sent){
